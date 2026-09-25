@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2>MyWebsite</h2>
+
+        <div>
+            <a href="#Home">home</a>
+            <a href="#About">about</a>
+            <a href="#Skills">skills</a>
+            <a href="#Projects">projects</a>
+            <a href="#Contact">contact</a>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+   <section id="home" class="hero">
+
+    <div class="hero-text">
+        <p class="intro">Hello, I am</p>
+
+        <h1>Imran</h1>
+
+        <h2>BCA Data Science Student</h2>
+
+        <p>
+            I am learning programming, web development
+            and data science.
+        </p>
+
+        <button onclick="hello()">Let's Start</button>
+    </div>
+
+    <div class="hero-image">
+        <img src="profile.jpg" alt="My Profile Photo">
+    </div>
+
+</section>
+
+    <!-- About Section -->
+     <section id="skills" class="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skill-container">
+
+        <div class="skill-card">
+            <h3>HTML</h3>
+            <p>Website structure banana.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>CSS</h3>
+            <p>Website ko design karna.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>Website me functionality add karna.</p>
+        </div>
+
+    </div>
+
+</section>
+<!-- Projects Section -->
+<section id="projects" class="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>A personal website made using HTML, CSS and JavaScript.</p>
+            <span>HTML • CSS • JavaScript</span>
+           <a href="https://imran0787.github.io/my-website/" class="project-btn" target="_blank">
+    View Project
+</a>
+        </div>
+
+        <div class="project-card">
+            <h3>C Programming Projects</h3>
+            <p>Beginner C programs created while learning programming.</p>
+            <span>C Programming</span>
+            <a href="https://github.com/Imran0787/c-programming" class="project-btn" target="_blank">
+    View Project
+</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Data Science Learning</h3>
+            <p>Learning programming, data analysis and data science concepts.</p>
+            <span>Python • Data Science</span>
+            <a href="#" class="project-btn">View Project</a>
+        </div>
+
+    </div>
+</section>
+    <section id="contact" class="contact">
+
+    <h2>Contact Me</h2>
+
+    <form>
+
+        <input type="text" placeholder="Your Name" required>
+
+        <input type="email" placeholder="Your Email" required>
+
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+</section>
+        <p>
+            I am Imran, a BCA Data Science student.
+            I am learning programming, web development
+            and data science.
+        </p>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
